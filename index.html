@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"/>
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"/> -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plexs+Sans:400,400i,700&display=swap"/> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="https://kit.fontawesome.com/b1c7f9a67a.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://momentjs.com/downloads/moment.js"/> -->
+</head>
+
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+    <form id="search-cities">
+        <div class="container">
+            <h2>Search for a City:</h2>
+            <input type="text" id="city">
+            <button id="city-search"><i class="fas fa-search-location"><i></button>
+        </div>
+    </form>
+
+    <div class="col-lg-9" id="weather-data">
+        <div class="card-body">
+            <h2 class="card-title" id="card-title">City Name, Date, Icon</h2>
+            <p class="card-text" id="temp">Temperature: </p>
+            <p class="card-text" id="humid">Humidity: </p>
+            <p class="card-text" id="wind">Wind Speed: </p>
+            <p class="card-text" id="uvi">UVI: </p>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
