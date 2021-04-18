@@ -8,7 +8,7 @@ On the flip side, I was unable to correctly use the moment.js unix code to corre
 
 ## Link to GitHub Pages:
 
-
+https://aldwinlub.github.io/weather-app/
 
 ## Screenshot:
 
