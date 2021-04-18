@@ -10,6 +10,15 @@ On the flip side, I was unable to correctly use the moment.js unix code to corre
 
 https://aldwinlub.github.io/weather-app/
 
-## Screenshot:
+## Screenshots:
 
-![]()
+![The starting page of the weather app](./weather-app-default.png)
+
+San Diego:
+![Searched for the city of San Diego.](./weather-app-san-diego.png)
+
+Seattle:
+![Searched for the city of Seattle.](./weather-app-seattle.png)
+
+New York City:
+![Searched for the city of New York City.](./weather-app-new-york-city.png)
